@@ -5,7 +5,7 @@ This is the frontend application for interacting with the web analyzer service. 
 ## Prerequisites
 
 - Node.js 16 or later
-- Yarn package manager
+- npm package manager
 - `.env` file created in the project root
 
 ## Environment Variables
@@ -28,14 +28,14 @@ This should match the port where the Go backend is running.
 
 2. Install dependencies:
    ```bash
-   yarn install
+   npm install
    ```
 
 ## Running the App
 
 1. Start the development server:
    ```bash
-   yarn start
+   npm start
    ```
 
 2. Open the app in your browser at `http://localhost:3000`.
@@ -56,7 +56,7 @@ This should match the port where the Go backend is running.
 
 To build the app for production:
 ```bash
-yarn build
+npm run build
 ```
 
 The built files will be available in the `build` directory.
