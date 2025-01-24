@@ -13,7 +13,7 @@ This is the frontend application for interacting with the web analyzer service. 
 Create a `.env` file in the root directory with the following variable:
 
 ```
-REACT_APP_API_PORT=8081
+REACT_APP_API_BASE_URL=http://localhost:8081
 ```
 
 This should match the port where the Go backend is running.
@@ -63,5 +63,5 @@ The built files will be available in the `build` directory.
 
 ## Notes
 
-- Ensure the backend is running on the port specified in `REACT_APP_API_PORT`.
+- Ensure the backend is running on the port specified in `REACT_APP_API_BASE_URL`.
 - For production, update the backend URL if necessary.
