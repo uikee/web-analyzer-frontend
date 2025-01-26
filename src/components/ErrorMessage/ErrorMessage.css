@@ -1,0 +1,22 @@
+.error-card {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.error-card p {
+    text-align: left;
+    margin: 5px 0;
+}
+
+.error-card strong {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+}

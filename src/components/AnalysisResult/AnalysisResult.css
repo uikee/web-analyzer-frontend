@@ -1,0 +1,59 @@
+.analysis-container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.analysis-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.analysis-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.td-label {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    font-weight: bold;
+    width: 30%;
+}
+
+.td-value {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    width: 70%;
+}
+
+.sub-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.sub-th {
+    padding: 4px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sub-td {
+    padding: 4px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
